@@ -1,0 +1,6 @@
+.cart-container-fixed {
+    position: fixed;
+    z-index: 100;
+    right: 30px;
+    bottom: 30px;
+}
