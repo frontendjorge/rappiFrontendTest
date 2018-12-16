@@ -2,7 +2,7 @@
 
 Prueba técnica para el cargo frontend web developer
 
-[Live Demo](  ahora pongo la url   )
+[Live Demo](  https://elbaraton-rappi.herokuapp.com/  Uso heroku free para el demo de la app. Si no carga la primer vez por favor vuelva a recargar.  )
 
 ## Instalación y a disfrutar
 
