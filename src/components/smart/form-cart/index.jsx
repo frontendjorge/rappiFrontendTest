@@ -33,19 +33,19 @@ export default class FormCart extends Component {
 		return (
 			<form>
 				<div className="form-group">
-					<h4>Datos de envio</h4>
+					<h4>Datos de envío</h4>
 				</div>
 				<div className="form-group">
-					<label>Nombre</label>
+					<label>Tu Nombre</label>
 					<input 
 						className="form-control" 
 						type="text" 
-						placeholder="destinatario del envio"
+						placeholder="destinatario del envío"
 						value={this.state.name}
 						onChange={this.onChangeName} />
 				</div>
 				<div className="form-group">
-					<label>Dirrección</label>
+					<label>Dirección</label>
 					<input 
 						className="form-control" 
 						type="text" 
@@ -54,14 +54,14 @@ export default class FormCart extends Component {
 						onChange={this.onChangeAddress} />
 				</div>
 				<div className="form-group">
-					<label>Celular o Telefono</label>
+					<label>Teléfono</label>
 					<input 
 						className="form-control" 
 						type="text" 
 						placeholder="contacto del destinatario"
 						value={this.state.phone}
 						onChange={this.onChangePhone} />
-					<small className="form-text text-muted">Recuerda que este numero nos ayudara a contactarte cuando tegamos algun incoveniente con tu envio.</small>
+					
 				</div>
 			</form>
 		)
